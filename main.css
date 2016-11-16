@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  background-color: #f7f7f8;
+  margin: 0;
+}
+
+main {
+  display: table;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 50%;
+}
+
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0.25em;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.05);
+}
+
+.section-title {
+  text-align: center;
+}
+
+.calculator {
+  font-size: 16px;
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-width: 1px 0 0 1px;
+  min-width: 300px;
+}
+
+.calculator .display {
+  width: 100%;
+  text-align: right;
+  padding: 1em;
+  font-size: 1.5em;
+  background-color: rgba(0,0,0,0.1);
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-width: 0 1px 1px 0;
+}
+
+.calculator .row {
+  display: table;
+  width: 100%;
+}
+
+.calculator .button {
+  display: table-cell;
+  width: 25%;
+  padding: 1em 0.5em;
+  font-size: 1em;
+  background-color: rgb(247, 247, 248);
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-width: 0 1px 1px 0;
+}
+
+.calculator .button:hover {
+  background-color: rgb(254, 254, 255);
+}
+
+.calculator .button.-operator {
+  background-color: rgb(173, 216, 230);
+}
+
+.calculator .button.-operator:hover {
+  background-color: rgb(180, 223, 237);
+}
+
+.calculator .button.-clear {
+  background-color: rgb(255, 160, 122);
+}
+
+.calculator .button.-clear:hover {
+  background-color: rgb(255, 170, 132);
+}
+
+.calculator .button.-span-50 {
+  width: 50%;
+}
+
+.calculator .button:focus {
+  outline: none;
+}
